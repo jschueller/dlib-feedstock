@@ -14,8 +14,8 @@ source:
     #- win_jpeg_png.patch       # [win]
     #- win_release_flags.patch  # [win]
     - cxx11_detection.patch
-    - external_deps.patch
-    - msvc_no_static_runtime.patch
+    #- external_deps.patch
+    #- msvc_no_static_runtime.patch
 
 build:
   skip: True  # [win and py<35]
